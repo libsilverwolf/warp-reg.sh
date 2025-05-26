@@ -82,9 +82,9 @@ format() {
 }
 
 main() {
-    package_manager
-    install_software "xxd" "xxd"
-    install_software "python3" "python3"
+    # package_manager
+    # install_software "xxd" "xxd"
+    # install_software "python3" "python3"
     warp_info=$(reg) ; exit_code=$?
     if [[ $exit_code != 0 ]];then
         echo "$warp_info"
